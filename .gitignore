@@ -1,0 +1,14 @@
+
+.venv/
+__pycache__/
+*.py[cod]
+careermatch.db
+.env
+.streamlit/secrets.toml
+.DS_Store
+
+venv/
+env/
+.env.*
+!.env.example
+uploads/

@@ -1,0 +1,203 @@
+
+/* CareerMatch AI — Premium SaaS Theme */
+
+:root {
+    --navy: #172554;
+    --purple: #7047EB;
+    --purple-light: #F1EDFF;
+    --background: #F7F8FC;
+    --surface: #FFFFFF;
+    --text: #202944;
+    --muted: #75809A;
+    --border: #E7EAF2;
+}
+
+.stApp {
+    background: var(--background);
+    color: var(--text);
+}
+
+[data-testid="stHeader"] {
+    background: rgba(247, 248, 252, 0.9);
+}
+
+[data-testid="stSidebar"] {
+    background: var(--surface);
+    border-right: 1px solid var(--border);
+}
+
+[data-testid="stSidebar"] > div {
+    padding-top: 1.5rem;
+}
+
+h1, h2, h3 {
+    color: var(--navy) !important;
+    letter-spacing: -0.5px;
+}
+
+p, label, .stMarkdown {
+    color: var(--text);
+}
+
+[data-testid="stMetric"] {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 20px;
+    box-shadow: 0 4px 18px rgba(23, 37, 84, 0.04);
+}
+
+[data-testid="stMetricLabel"] {
+    color: var(--muted);
+}
+
+[data-testid="stMetricValue"] {
+    color: var(--navy);
+    font-weight: 700;
+}
+
+.stButton > button,
+.stDownloadButton > button {
+    background: var(--purple);
+    color: #FFFFFF;
+    border: 1px solid var(--purple);
+    border-radius: 10px;
+    padding: 0.55rem 1rem;
+    font-weight: 600;
+    transition: all 0.2s ease;
+}
+
+.stButton > button:hover,
+.stDownloadButton > button:hover {
+    background: var(--navy);
+    color: #FFFFFF;
+    border-color: var(--navy);
+}
+
+.stTextInput input,
+.stTextArea textarea {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+}
+
+[data-testid="stFileUploader"] {
+    background: var(--surface);
+    border: 1px dashed #B7A8F7;
+    border-radius: 14px;
+    padding: 12px;
+}
+
+hr {
+    border-color: var(--border);
+}
+
+[data-testid="stAlert"] {
+    border-radius: 12px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+:root {
+    --primary: #5b4bdb;
+    --primary-light: #eeebff;
+    --navy: #171a35;
+    --muted: #777b91;
+    --border: #e9e9f2;
+    --surface: #ffffff;
+    --background: #f7f8fc;
+}
+
+.stApp {
+    background: var(--background);
+    font-family: 'Inter', sans-serif;
+    color: var(--navy);
+}
+
+[data-testid="stHeader"] {
+    background: transparent;
+}
+
+[data-testid="stSidebar"] {
+    background: var(--surface);
+    border-right: 1px solid var(--border);
+}
+
+[data-testid="stSidebar"] > div:first-child {
+    padding-top: 1.5rem;
+}
+
+h1, h2, h3 {
+    color: var(--navy) !important;
+    font-weight: 700 !important;
+    letter-spacing: -0.6px;
+}
+
+p, label, .stMarkdown {
+    color: #51556d;
+}
+
+div[data-testid="stMetric"] {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 22px 20px;
+    box-shadow: 0 4px 18px rgba(28, 27, 67, 0.035);
+}
+
+[data-testid="stMetricLabel"] {
+    color: var(--muted);
+    font-size: 0.9rem;
+}
+
+[data-testid="stMetricValue"] {
+    color: var(--navy);
+    font-weight: 800;
+}
+
+.stButton > button {
+    background: var(--primary);
+    color: white;
+    border: 1px solid var(--primary);
+    border-radius: 10px;
+    padding: 0.65rem 1.15rem;
+    font-weight: 600;
+    transition: all 0.2s ease;
+}
+
+.stButton > button:hover {
+    background: #4838c2;
+    color: white;
+    border-color: #4838c2;
+    transform: translateY(-1px);
+}
+
+.stTextInput input,
+.stTextArea textarea,
+[data-testid="stFileUploader"] {
+    border-radius: 10px;
+}
+
+div[data-testid="stVerticalBlockBorderWrapper"] {
+    border-radius: 16px;
+}
+
+hr {
+    border-color: var(--border);
+}
+
+div[data-testid="stAlert"] {
+    border-radius: 12px;
+}
+
+section[data-testid="stSidebar"] .stRadio label {
+    padding: 5px 0;
+}
+
+footer {
+    visibility: hidden;
+}
+
+#MainMenu {
+    visibility: hidden;
+}
